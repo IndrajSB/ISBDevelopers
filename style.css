@@ -11,9 +11,15 @@ h1
   padding-bottom: 10px;
 }
 
+h4
+{
+  text-align: center !important;
+  color: #fff !important;
+  padding-bottom: 10px;
+}
+
 h5
 {
-
   color: #092047 !important;
   padding-bottom: 0px;
 }
@@ -339,10 +345,10 @@ a
 /*get in touch*/
 #contact
 {
-  background: #efefef;
+  background: #092047;
   padding-top: 40px;
   padding-bottom: 40px;
-  color: #777;
+  color: #092047;
 }
 
 .contact-form
@@ -379,25 +385,11 @@ form
   transition: all 4s ease-in-out;
 }
 
-.form-control
+.email
 {
-  border: none;
-  color: #fff;
+  text-decoration: none !important;
+  color: #092047!important;
 }
-
-form .submit
-{
-  background: #092047;
-  height: 50px;
-  margin-top: 20px;
-}
-
-form .submit:hover
-{
-  background-color: #efefef;
-  cursor: pointer;
-}
-
 
 
 /*footer*/
@@ -434,7 +426,7 @@ form .submit:hover
   display: inline-flex;
   width: 40px;
   height: 40px;
-  background: #2c3e50;
+  background: #efefef;
   color: white;
   margin: 0 10px;
   border-radius: 50%;
@@ -446,7 +438,7 @@ form .submit:hover
 
 .socials a:hover
 {
-  background: #e67e22;
+  background: #007bff;
 }
 
 .socials a i
@@ -456,11 +448,31 @@ form .submit:hover
 
 .socials a:hover > i
 {
-  transform: scale(1.6) rotate(25deg);
+  /*transform: scale(1.6) rotate(25deg);*/
+}
+
+.fa-twitter
+{
+  color: #092047;
+}
+
+.fa-instagram
+{
+    color: #092047;
+}
+
+.fa-linkedin
+{
+    color: #092047;
+}
+
+.fa-facebook
+{
+    color: #092047;
 }
 
 .footer-msg
 {
   text-align: center;
-  color: #fff;
+  color: #efefef;
 }
