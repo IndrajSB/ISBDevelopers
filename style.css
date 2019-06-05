@@ -11,6 +11,12 @@ h1
   padding-bottom: 10px;
 }
 
+/*h2
+{
+  font-size: 25px!important;
+  font-size: 3vw;
+}*/
+
 h4
 {
   text-align: center !important;
@@ -27,6 +33,7 @@ h5
 p
 {
   color: #092047;
+  font-size: 1ve !important;
 }
 
 h1::after
@@ -66,7 +73,7 @@ h1::after
 
 #nav-bar ul li a:hover
 {
-  color: #efefef!important;
+  color: #007bff!important;
 }
 
 .navbar
@@ -257,7 +264,8 @@ li
 .price-head h2
 {
   color: #fff;
-  font-size: 30px;
+  font-size: 25px;
+  /*font-size: 2vmax;*/
   font-weight: bold;
   margin-bottom: 5px;
   padding: 5px;
@@ -267,7 +275,7 @@ li
 .price-head p
 {
   color: #ccc;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   line-height: 30px;
 }
@@ -332,7 +340,7 @@ ul li:last-child
 
 .buy-btn:hover
 {
-  background-color: #efefef;
+  background-color: #007bff;
   border-color: #fff;
 }
 
@@ -342,7 +350,7 @@ a
   color: #fff!important;
 }
 
-/*get in touch*/
+/*contact us footer*/
 #contact
 {
   background: #092047;
@@ -351,27 +359,16 @@ a
   color: #092047;
 }
 
-.contact-form
-{
-  padding: 15px;
-}
-
-.form-control
-{
-  border-radius: 0 !important;
-  border: none !important;
-}
-
-::placeholder
-{
-  color: #999 !important;
-}
-.follow
+.contact
 {
   background: #fff;
   padding: 10px;
   margin: 15px;
+  color: #007bff;
+  width: 50%;
+  margin-left: 25%;
 }
+
 .contact-info .fa
 {
   margin: 10px;
@@ -379,20 +376,42 @@ a
   font-weight: bold;
 }
 
-form
+.contact i
 {
-  margin-top: 50px;
-  transition: all 4s ease-in-out;
+  color: #007bff;
+  align-items: center!important;
 }
 
-.email
+.contact a
 {
-  text-decoration: none !important;
-  color: #092047!important;
+  color: #007bff!important;
+  align-items: center!important;
 }
-
 
 /*footer*/
+#footer h1
+{
+  text-align: center;
+  color: #efefef !important;
+  padding-bottom: 10px;
+}
+
+#footer h1::after
+{
+  content: '';
+  background: #efefef;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+#footer p
+{
+  color: #efefef!important;
+  align-items: center;
+}
+
 #footer
 {
   background: #092047;
@@ -418,7 +437,7 @@ form
   left: 50%;
   transform: translate(-50%, -50%);*/
   text-align: center;
-  padding: 20px 0;
+  padding: 10px 0px;
 }
 
 .socials a
@@ -439,6 +458,7 @@ form
 .socials a:hover
 {
   background: #007bff;
+  border-color: #fff;
 }
 
 .socials a i
@@ -467,6 +487,16 @@ form
 }
 
 .fa-facebook
+{
+    color: #092047;
+}
+
+.fa-envelope
+{
+    color: #092047;
+}
+
+.fa-phone
 {
     color: #092047;
 }
