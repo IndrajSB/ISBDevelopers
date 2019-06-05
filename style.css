@@ -308,14 +308,14 @@ ul li:last-child
 .fa-check-circle
 {
   color: green;
-  margin-right: 10px;
+  margin-right: 5px;
   font-size: 20px;
 }
 
 .fa-times-circle
 {
   color: red;
-  margin-right: 10px;
+  margin-right: 5px;
   font-size: 20px;
 }
 
