@@ -11,12 +11,6 @@ h1
   padding-bottom: 10px;
 }
 
-/*h2
-{
-  font-size: 25px!important;
-  font-size: 3vw;
-}*/
-
 h4
 {
   text-align: center !important;
@@ -106,11 +100,10 @@ h1::after
   bottom: initial!important;
 }
 
-.carousel-caption h5
-{
+/*{
   color: #fff;
   font-size: 4;
-}
+}*/
 
 /*---About---*/
 
