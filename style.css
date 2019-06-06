@@ -87,7 +87,7 @@ h1::after
   font-size: 16px;
 }
 
-/*----Slider----*/
+/*----------------------------Slider------------------------------*/
 #slider
 {
   width: 100%;
@@ -99,14 +99,6 @@ h1::after
   transform: translate(-50%);
   bottom: initial!important;
 }
-
-/*{
-  color: #fff;
-  font-size: 4;
-}*/
-
-/*---About---*/
-
 
 #about
 {
@@ -125,11 +117,9 @@ h1::after
   padding-top: 20px;
 }
 
-/*---skills bar----*/
+/*---------------------------skills bar----------------------------*/
 #skills
 {
-  /*padding-top: 50px;
-  padding-bottom: 50px;*/
   color: #555;
 }
 
@@ -163,7 +153,7 @@ li
     color: #092047;
 }
 
-/*---Services----*/
+/*---------------------------Services--------------------------------*/
 #services
 {
   background-color: #092047;
@@ -222,7 +212,7 @@ li
   transition: 0.7s;
 }
 
-/*prices*/
+/*---------------------------prices-------------------------------*/
 #price
 {
   padding: 40px 0;
@@ -258,7 +248,6 @@ li
 {
   color: #fff;
   font-size: 25px;
-  /*font-size: 2vmax;*/
   font-weight: bold;
   margin-bottom: 5px;
   padding: 5px;
@@ -283,7 +272,7 @@ li
   display: inline;
   float: left;
   width: 100%;
-  padding: 0 15px;
+  padding: 0px 0px;
 }
 
 .price-content ul li
@@ -343,8 +332,20 @@ a
   color: #fff!important;
 }
 
-/*contact us footer*/
-#contact
+/*-------------------------------PayPal buttons--------------------------*/
+.pp
+{
+  width: 100%;
+}
+
+.col-md-3
+{
+  width: 50px;
+}
+
+
+/*-------------------------------contact footer------------------------*/
+/*#contact
 {
   background: #092047;
   padding-top: 40px;
@@ -379,9 +380,8 @@ a
 {
   color: #007bff!important;
   align-items: center!important;
-}
+}*/
 
-/*footer*/
 #footer h1
 {
   text-align: center;
@@ -425,10 +425,6 @@ a
 
 .socials
 {
-  /*position: fixed;
-  top: 100%;
-  left: 50%;
-  transform: translate(-50%, -50%);*/
   text-align: center;
   padding: 10px 0px;
 }
@@ -457,11 +453,6 @@ a
 .socials a i
 {
   transition: 0.4s all;
-}
-
-.socials a:hover > i
-{
-  /*transform: scale(1.6) rotate(25deg);*/
 }
 
 .fa-twitter
@@ -498,11 +489,4 @@ a
 {
   text-align: center;
   color: #efefef;
-}
-
-
-/*example---*/
-.pp
-{
-  width: 185px;
 }
